@@ -1,0 +1,27 @@
+/* Ícones g-lab: grade 24, traço 1,7, currentColor. */
+export const ICONS = {
+ "home": "<path d=\"M4 11.5 12 4l8 7.5\"/><path d=\"M6 10v9a1 1 0 0 0 1 1h3v-6h4v6h3a1 1 0 0 0 1-1v-9\"/>",
+ "layers": "<path d=\"M12 3 3 8l9 5 9-5-9-5Z\"/><path d=\"M3 12l9 5 9-5\"/><path d=\"M3 16l9 5 9-5\"/>",
+ "users": "<path d=\"M9 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z\"/><path d=\"M3.5 20c.6-3.3 3-5.5 5.5-5.5s4.9 2.2 5.5 5.5\"/><path d=\"M15.5 6.6A3 3 0 1 1 18 12\"/><path d=\"M16 14.3c2 .5 3.6 2.3 4.1 5\"/>",
+ "building": "<path d=\"M6 21V5a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v16\"/><path d=\"M14 10h4a1 1 0 0 1 1 1v10\"/><path d=\"M9 8h0M9 11h0M9 14h0M9 17h0\"/><path d=\"M17 14h0M17 17h0\"/><path d=\"M3 21h18\"/>",
+ "box": "<path d=\"m3.5 7.5 8.5-4 8.5 4-8.5 4-8.5-4Z\"/><path d=\"M3.5 7.5v9l8.5 4 8.5-4v-9\"/><path d=\"M12 11.5v9\"/>",
+ "file": "<path d=\"M7 3h7l5 5v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z\"/><path d=\"M14 3v5h5\"/><path d=\"M9 13h6M9 16.5h6\"/>",
+ "receipt": "<path d=\"M6 3h12v18l-2.5-1.6L13 21l-1.5-1.6L10 21l-2.5-1.6L6 21V3Z\"/><path d=\"M9 8h6M9 11.5h6\"/>",
+ "settings": "<path d=\"M12 15.2a3.2 3.2 0 1 0 0-6.4 3.2 3.2 0 0 0 0 6.4Z\"/><path d=\"M19.4 12.9v-1.8l-2-.3a5.7 5.7 0 0 0-.6-1.5l1.2-1.6-1.3-1.3-1.6 1.2a5.7 5.7 0 0 0-1.5-.6l-.3-2h-1.8l-.3 2a5.7 5.7 0 0 0-1.5.6L8.1 6.4 6.8 7.7 8 9.3a5.7 5.7 0 0 0-.6 1.5l-2 .3v1.8l2 .3c.14.54.35 1.05.6 1.5l-1.2 1.6 1.3 1.3 1.6-1.2c.45.25.96.46 1.5.6l.3 2h1.8l.3-2c.54-.14 1.05-.35 1.5-.6l1.6 1.2 1.3-1.3-1.2-1.6c.25-.45.46-.96.6-1.5l2-.3Z\"/>",
+ "chevDown": "<path d=\"m6 9 6 6 6-6\"/>",
+ "plus": "<path d=\"M12 5v14M5 12h14\"/>",
+ "close": "<path d=\"M6 6l12 12M18 6L6 18\"/>",
+ "paperclip": "<path d=\"M8 12.5 15 5.5a3 3 0 0 1 4.2 4.2L10.8 18a5 5 0 1 1-7-7l8-8\"/>",
+ "search": "<path d=\"M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14Z\"/><path d=\"m21 21-4.3-4.3\"/>",
+ "back": "<path d=\"M19 12H5M11 6l-6 6 6 6\"/>",
+ "trash": "<path d=\"M4 7h16M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2m2 0-.8 12.1a1 1 0 0 1-1 .9H8.8a1 1 0 0 1-1-.9L7 7\"/>",
+ "check": "<path d=\"m5 12 5 5L20 7\"/>",
+ "star": "<path d=\"M12 4.2 14.3 9l5.3.6-3.9 3.7.9 5.2L12 15.9 7.4 18.5l.9-5.2L4.4 9.6 9.7 9 12 4.2Z\"/>",
+ "calendar": "<rect x=\"4\" y=\"5.5\" width=\"16\" height=\"15\" rx=\"1.5\"/><path d=\"M8 3.5v4M16 3.5v4M4 10h16\"/>",
+ "warn": "<path d=\"M12 4 21 20H3L12 4Z\"/><path d=\"M12 10.5v4.2M12 17.3h0\"/>",
+ "menu": "<path d=\"M4 7h16M4 12h16M4 17h16\"/>"
+};
+
+export function icon(name, cls = '') {
+  return '<svg class="' + cls + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICONS[name] + '</svg>';
+}

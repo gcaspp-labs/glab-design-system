@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FormField — g-lab</title><link rel="stylesheet" href="../../css/glab.css"><style>body{padding:20px;}</style></head>
+<body>
+<div style="max-width:460px">
+<div class="field-row"><div class="field"><label for="a">Número do contrato</label><input id="a" type="text" value="014/2026"></div>
+<div class="field"><label for="b">Data de assinatura</label><input id="b" type="date" value="2026-03-02"></div></div>
+<div class="field"><label for="c">Cliente</label><select id="c"><option>Prefeitura Municipal de Santo André</option></select><div class="hint-text">Autarquia ou órgão contratante.</div></div>
+<fieldset class="fieldset"><legend>Parcelas</legend>
+<div class="repeat-row"><div class="field"><label>Vencimento</label><input type="date" value="2026-09-10"></div><div class="field"><label>Valor</label><input type="number" value="12400"></div><button class="icon-btn rm" aria-label="Remover parcela"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2m2 0-.8 12.1a1 1 0 0 1-1 .9H8.8a1 1 0 0 1-1-.9L7 7"/></svg></button></div>
+<button class="add-row-btn"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>Adicionar parcela</button></fieldset>
+<label class="check-row"><input type="checkbox" checked> Reajuste anual pelo IPCA</label>
+</div>
+</body>
+</html>

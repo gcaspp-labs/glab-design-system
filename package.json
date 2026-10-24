@@ -1,0 +1,9 @@
+{
+  "name": "@gcaspp-labs/glab-design-system",
+  "version": "1.0.0",
+  "description": "Design system GCASPP LAB (g-lab): tokens, componentes CSS, ícones e logos.",
+  "style": "css/glab.css",
+  "files": ["css", "tokens", "icons", "assets", "components"],
+  "repository": {"type": "git", "url": "https://github.com/gcaspp-labs/glab-design-system.git"},
+  "private": true
+}

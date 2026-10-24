@@ -1,0 +1,4 @@
+/* GCASPP LAB — ponto de entrada único: fontes + tokens + componentes */
+@import url("./fonts.css");
+@import url("../tokens/tokens.css");
+@import url("./components.css");
