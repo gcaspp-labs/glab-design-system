@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logos/gcaspp-lab-horizontal.svg" alt="GCASPP LAB" height="64">
+  <img src="assets/logos/gcaspp-horizontal.svg" alt="GCASPP" height="64">
 </p>
 
 # GCASPP LAB — Design System
@@ -45,7 +45,7 @@ Se preferir só as variáveis, sem os componentes: `tokens/tokens.css`.
 | `css/glab.css` | Ponto de entrada: `fonts.css` + `tokens.css` + `components.css` |
 | `components/<Nome>/` | Diretrizes (`README.md`) e exemplo vivo (`example.html`) de cada componente |
 | `icons/` | Conjunto de ícones de traço (JSON, módulo JS e SVGs) |
-| `assets/logos/` | Símbolo do polvo, assinatura horizontal e versão g-lab, para fundo claro e escuro |
+| `assets/logos/` | Símbolo GCASPP, assinaturas horizontal e vertical para fundo claro e escuro, favicon e ícones de app |
 | `index.html` | Galeria com todos os componentes |
 
 Abra `index.html` no navegador (ou ative o GitHub Pages) para ver a galeria.
@@ -86,13 +86,14 @@ GCASPP LAB (abreviado **g-lab**) faz sistemas de gestão para o setor público: 
 
 ## Nome e marca
 
-- Escreva **GCASPP LAB** em maiúsculas na marca, títulos, barra lateral e documentos formais.
-- Use **g-lab** (minúsculas, com hífen) onde o espaço é curto ou o tom é interno: rodapés, favicons, nomes de repositório, assinaturas de e-mail, URLs. Nunca "G-Lab", "GLab" ou "glab" em texto corrido.
-- O símbolo é o polvo dentro do disco, em `accent`. O polvo e as ondas são vazados: mostram o fundo por trás, nunca recebem outra cor.
-- Fundos claros (`paper`, `surface`): `glab-simbolo.svg`, `gcaspp-lab-horizontal.svg`, `g-lab.svg`.
-- Fundos escuros (`sidebar-bg`, tema escuro): `glab-simbolo-escuro.svg`, `gcaspp-lab-horizontal-escuro.svg`, `g-lab-escuro.svg`.
-- Monocromático: `glab-simbolo-ink.svg` (impressão P&B, carimbos) e `glab-simbolo-branco.svg` (sobre fotos ou cores sólidas escuras).
-- Tamanho mínimo do símbolo: 24px. Área de respiro em volta: metade do diâmetro do disco. Não gire, não contorne, não aplique sombra nem degradê.
+- A marca é **GCASPP**, sempre em maiúsculas: no logo, nos títulos, na barra lateral e nos documentos formais.
+- **g-lab** (GCASPP LAB) é o nome interno da equipe de desenvolvimento. Use só em nomes de repositório, pacotes e URLs, nunca na interface.
+- O símbolo é o anel com três barras, em `accent`, com as folgas vazadas, que nunca recebem outra cor. Arquivos e usos em [assets/logos/README.md](assets/logos/README.md).
+- Fundos claros (`paper`, `surface`): `gcaspp-horizontal.svg`, `gcaspp-vertical.svg`, `gcaspp-simbolo.svg`.
+- Fundos escuros (`sidebar-bg`, tema escuro): `gcaspp-horizontal-escuro.svg`, `gcaspp-vertical-escuro.svg`, `gcaspp-simbolo-escuro.svg`.
+- Monocromático: `gcaspp-simbolo-ink.svg` (impressão P&B, carimbos) e `gcaspp-simbolo-branco.svg` (sobre fotos ou cores sólidas escuras).
+- Favicon e ícones de app: `assets/logos/favicon/`.
+- Tamanho mínimo do símbolo: 24px de altura. Deixe em volta um espaço livre de metade da altura do símbolo. Não gire, não contorne e não aplique sombra nem degradê.
 
 ## Conteúdo e tom
 
